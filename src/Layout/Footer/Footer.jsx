@@ -47,7 +47,7 @@ const Footer = () => {
                 </Typography>
                 <Stack direction="row" spacing={3}>
                   <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>LINKEDIN</Link>
-                  <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontSize: '12px', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>X</Link>
+                  <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>X</Link>
                 </Stack>
               </Box>
             </Grid>
