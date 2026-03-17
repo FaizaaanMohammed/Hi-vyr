@@ -36,7 +36,7 @@ const Hero = () => {
         </Typography>
       </Box>
 
-      {/* 2. Image (Aligned Right on Desktop, Full on Mobile) */}
+      {/* 2. Image  */}
       <Box
         sx={{
           display: "flex",

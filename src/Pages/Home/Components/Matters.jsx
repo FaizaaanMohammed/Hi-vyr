@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, Container, Grid, Typography, Divider } from '@mui/material';
 
 const WhyItMatters = () => {
-  const orangeAccent = '#D97D54';
-  const navyBg = '#0B1D33';
+  const orangeAccent = '#EC9874';
+  const navyBg = '#0C1D31';
 
   const features = [
     {
