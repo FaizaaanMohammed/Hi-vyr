@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText, Container, Divider, useScrollTrigger } from '@mui/material';
+import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText, Container, useScrollTrigger } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import "../../App.css";
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         py: 1,
         transition: '0.3s ease-in-out', 
         backgroundColor: trigger ? '#F5F5F5' : 'transparent', 
-        borderBottom: trigger ? '1px solid #ddd' : 'none',
+       
         fontFamily: "Montserrat",borderBottom:{xs:"2px solid #000",md:"none"}
       }} >
       <Container maxWidth="lg">
