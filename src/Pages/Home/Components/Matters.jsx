@@ -45,7 +45,7 @@ const WhyItMatters = () => {
                 fontFamily:"Montserrat"
               }}
             >
-              Why a thoughtfully <br /> built website matters
+              Why a thoughtfully <br className='hideBr' /> built website matters
             </Typography>
           </Grid>
           <Grid item  size={{xs:12,md:6}}>
