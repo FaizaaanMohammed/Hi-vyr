@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Link, Stack, Divider } from '@mui/material';
+import { Box, Container, Grid, Typography, Link, Stack } from '@mui/material';
 
 const Footer = () => {
   const orangeAccent = '#D97D54';
@@ -46,7 +46,7 @@ const Footer = () => {
                   Socials
                 </Typography>
                 <Stack direction="row" spacing={3}>
-                  <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontSize: '12px', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>LINKEDIN</Link>
+                  <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>LINKEDIN</Link>
                   <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontSize: '12px', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>X</Link>
                 </Stack>
               </Box>

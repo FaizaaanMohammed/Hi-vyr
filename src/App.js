@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Layout/Navbar/Navbar';
 import Home from './Pages/Home/Home';

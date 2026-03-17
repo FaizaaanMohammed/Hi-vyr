@@ -7,7 +7,7 @@ import WebsitePackages from './Components/Websitepackage'
 import WhyUs from './Components/Whyus'
 import Testimonials from './Components/Testimonial'
 import AddOnServices from './Components/AddonService'
-import ValueSection from './Components/Valuesection'
+
 
 const Home = () => {
   return (

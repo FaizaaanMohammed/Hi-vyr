@@ -3,7 +3,7 @@ import { Box, Typography, Container } from '@mui/material';
 
 const OfferSection = () => {
   const orangeAccent = '#D97D54';
-  const navyBg = '#0B1D33';
+  
 
   return (
     <Box 
