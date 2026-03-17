@@ -66,7 +66,7 @@ const WebsitePackages = () => {
     <Box sx={{ bgcolor: '#F5F5F5', py: 10 }}>
       <Container maxWidth="lg">
         {/* Section Label */}
-        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: 8, width: '100%' }}>
+        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: {md:6,xs:2}, width: '100%' }}>
           <Typography sx={{ fontSize: '12px', fontWeight: 700, letterSpacing: 1, fontFamily: "Montserrat" }}>
             WEBSITE PACKAGES
           </Typography>

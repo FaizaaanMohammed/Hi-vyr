@@ -16,7 +16,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Hero = () => {
   return (
-    <Container maxWidth="lg" sx={{ pt: { xs: 4, md: 2 }, pb: 5 }}>
+    <Container maxWidth="lg" sx={{ pt: { xs: 2, md: 2 }, pb: 5 }}>
       {/* 1. Full Width Heading */}
       <Box sx={{ width: "100%", mb: { xs: 3, md: 2 } }}>
         <Typography
@@ -25,7 +25,7 @@ const Hero = () => {
             fontSize: { xs: "36px", md: "58px" },
             lineHeight: {xs:"40px",md:"70px"},
             color: "#666", 
-            fontWeight: {sm:"700",md:"500"},
+            fontWeight: {xs:"700",md:"500"},
             letterSpacing: "0px",
             
             fontFamily: "Montserrat",

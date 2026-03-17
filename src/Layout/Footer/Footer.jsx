@@ -1,8 +1,8 @@
 import { Box, Container, Grid, Typography, Link, Stack } from '@mui/material';
 
 const Footer = () => {
-  const orangeAccent = '#D97D54';
-  const navyBg = '#0B1D33';
+  const orangeAccent = '#EC9874';
+  const navyBg = '#0C1D31';
 
   return (
     <Box component="footer">
@@ -20,7 +20,7 @@ const Footer = () => {
                   letterSpacing: 1, 
                   mb: 3,
                   textTransform: 'uppercase',
-                  fontSize:"42px",
+                  fontSize:{md:"42px",xs:"24px"},
                   fontFamily:"Montserrat"
                 }}
               >
@@ -45,7 +45,7 @@ const Footer = () => {
                 <Typography variant="overline" sx={{ fontWeight: 700, letterSpacing: 1, display: 'block', mb: 1 }}>
                   Socials
                 </Typography>
-                <Stack direction="row" spacing={3}>
+                <Stack direction={"row"} spacing={3}>
                   <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>LINKEDIN</Link>
                   <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700,fontFamily:"Montserrat" ,fontSize:"16px" }}>X</Link>
                 </Stack>
@@ -54,12 +54,12 @@ const Footer = () => {
 
             {/* Right Column: CTA Links */}
             <Grid item size={{xs:12,md:5}}>
-              <Stack spacing={3} alignItems={{ xs: 'flex-start', md: 'flex-end' }} sx={{ mt: { xs: 4, md: 13 } }}>
+              <Stack spacing={3} alignItems={{ xs: 'flex-start', md: 'flex-end' }} sx={{ mt: { xs: 0, md: 13 } }}>
                 <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700, fontSize: '14px', letterSpacing: 1,fontFamily:"Montserrat"}}>
                   BOOK A FREE CONSULTATION
                 </Link>
                 
-                <Stack direction="row" spacing={4} justifyContent="flex-end">
+                <Stack direction={{md:"row",xs:"column"}} spacing={4} justifyContent="flex-end">
                    <Link href="#" sx={{ color: '#fff', textDecoration: 'underline', fontWeight: 700, fontSize: '16px', letterSpacing: 1,fontFamily:"Montserrat" }}>
                     DOWNLOAD BROCHURE
                   </Link>

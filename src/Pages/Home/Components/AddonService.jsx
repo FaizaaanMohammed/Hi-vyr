@@ -18,7 +18,7 @@ const AddOnServices = () => {
       <Container maxWidth="lg">
         
         {/* Top Label and Divider */}
-        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: 6, width: '100%' }}>
+        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: {md:6,xs:2}, width: '100%' }}>
           <Typography sx={{ fontSize: '12px', fontWeight: 800, letterSpacing: 1.5, fontFamily: "Montserrat" }}>
             ADD-ON
           </Typography>

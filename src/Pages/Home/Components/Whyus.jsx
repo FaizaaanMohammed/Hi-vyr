@@ -14,7 +14,7 @@ const WhyUs = () => {
     <Box sx={{ bgcolor: '#EAEAEA', py: { xs: 8, md: 12 }, fontFamily: "Montserrat" }}>
       <Container maxWidth="lg">
         {/* Top Label and Line */}
-        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: 8, width: '100%',borderWidth:"100%" }}>
+        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: {md:6,xs:2}, width: '100%',borderWidth:"100%" }}>
           <Typography sx={{ fontSize: '12px', fontWeight: 800, letterSpacing: 1.5, fontFamily: "Montserrat" }}>
             WHY US?
           </Typography>

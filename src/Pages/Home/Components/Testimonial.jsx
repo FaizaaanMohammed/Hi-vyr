@@ -6,17 +6,17 @@ const Testimonials = () => {
     {
       text: "“New Tab didn’t just make us a website. They made it easier for parents to reach us. Everything feels calmer now.”",
       author: "– HEADMISTRESS, PINEWOODS ACADEMY",
-      color: "#E59A73", // Muted Orange/Peach
+      color: "#EC9874", 
     },
     {
       text: "“The design, the forms, the way patients connect — it’s made my practice more peaceful and organised.”",
       author: "– DR. A. MEENAKSHI, GENERAL PRACTITIONER",
-      color: "#9FA8DA", // Muted Purple/Blue
+      color: "#9C9DE1", 
     },
     {
       text: "“The design, the forms, the way patients connect — it’s made my practice more peaceful and organised.”",
       author: "– DR. A. MEENAKSHI, GENERAL PRACTITIONER",
-      color: "#F48FB1", // Muted Pink
+      color: "#FCAAE4", 
     },
   ];
 
@@ -24,7 +24,7 @@ const Testimonials = () => {
     <Box sx={{ bgcolor: '#EAEAEA', py: { xs: 8, md: 10 }, fontFamily: "Montserrat" }}>
       <Container maxWidth="lg">
         {/* Section Label */}
-        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: 6, width: '100%' }}>
+        <Box sx={{ borderBottom: '2px solid #333', pb: 0.5, mb: {md:6,xs:2}, width: '100%' }}>
           <Typography sx={{ fontSize: '12px', fontWeight: 800, letterSpacing: 1.5, fontFamily: "Montserrat" }}>
             CUSTOMERS
           </Typography>

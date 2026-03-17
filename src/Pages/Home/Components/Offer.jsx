@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Container } from '@mui/material';
 
 const OfferSection = () => {
-  const orangeAccent = '#D97D54';
+  const orangeAccent = '#EC9874';
   
 
   return (
